@@ -20,3 +20,11 @@ Additional Note:
 MJPG-Streamer keeps running after "Ctrl + C" is pressed. 
 May need to change the flag in the script "streamer.sh".
 Use "pkill mjpg_streamer" to kill the process can be an option.
+------------------------------------------------------------------------------------------------------------------------------------------
+Apr.13.2018.FRI
+Successfully access the rov with the ethernet cable. 
+Multiple cameras access succeeded.
+
+Next goal:
+Create a new surface webpage to display camera streams, one for the front camera, and the other for the camera attached to the 
+manipulator.
