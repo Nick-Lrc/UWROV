@@ -1,0 +1,7 @@
+Access the router:
+192.168.8.1
+user: admin
+pw	: admin
+
+Go to advanced settings -> DHCP Server -> DHCP Client List
+Check the ip address assigned to the pi.

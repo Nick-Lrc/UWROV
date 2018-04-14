@@ -1,0 +1,24 @@
+ip address:
+192.168.8.1.100
+Otherwise, see the router_access.txt for instrcutions
+
+Camera_01: http://192.168.8.100:8081/?action=stream
+/dev/video0
+
+Camera_02: http://192.168.8.100:8082/?action=stream
+/dev/video1
+
+mjpg_streamer -i './<plugin> --help'
+
+http://192.168.8.100:8080/?action=stream
+
+./mjpg_streamer -i "./input_uvc.so -y" -o "./output_http.so -w ./www"
+
+v4l2-ctl --list-formats-ext
+
+/usr/local/bin/streamer.sh
+
+kill $(pgrep mjpg)
+or
+pkill mjpg_streamer
+
